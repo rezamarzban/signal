@@ -14,7 +14,7 @@
 
 **Notes:** 
 * The frequency of the input signal doesn't affect the finder.
-* The input resistance to the input pin affects the values of Vmin and Vmax. It finds the values of Vmin and Vmax at the input pin point.
+* The input resistance to the input pin affects the values of Vmin and Vmax at input pin point. the finder finds the values of Vmin and Vmax at the input pin point. to understand this, you need to be proficient in electronics and Ohm's law.
 * It is not a real-time finder, so do not change the testing circuit components during the finding process. It takes time to find the values of Vmin and Vmax.
 * Restart the app for each circuit testing or after any changes in the circuit components.
 * Vmin and Vmax should be between 0V and 3.3V.
