@@ -23,7 +23,7 @@ To working with signals in the electronics, an oscilloscope is needed for analyz
 
 The Raspberry Pi Pico can be used as a low-frequency oscilloscope and frequency meter. For this purpose, Use the sample firmwares `scoppy-pico-v8.uf2` or `RPI-PICO-20240602-v1.23.0.uf2` with the Android `Scoppy` App, Windows `Thonny` software, or Android `Micro REPL` App. On Windows, the USB serial COM port driver, specifically the `USB Serial (CDC)` driver, must be installed using `Zadig`.
 
-In action, the Raspberry Pi Pico can measure and scope signals with frequencies up to many KHz due to its low MicroPython loop speed. However, its loop speed for these tasks can be dramatically increased to 50MHz by using assembly language and overclocking. In comparison, commercial oscilloscopes can measure and scope signals up to 500MHz and higher.
+In action, the Raspberry Pi Pico can measure and scope signals with frequencies up to many KHz due to its low MicroPython loop speed. Its loop speed for measuring the frequency can be dramatically increased to 50MHz by using assembly language and overclocking. Using certain techniques, measuring some signal behaviors can be applied at any frequency, even up to many GHz. In comparison, commercial oscilloscopes can measure and scope signals up to 500MHz and higher.
 
 To measuring the frequency of any signal, including high-frequency signals up to many GHz, without an oscilloscope, It can be done by measuring the coil impedance in a frequency meter circuit. This task requires understanding the inductive reactance formula and having a multimeter, a transistor, an inductor, a capacitor, a diode and etc. The inductive reactance formula (coil impedance) is:
 
