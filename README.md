@@ -31,7 +31,7 @@ Raspberry pi pico some tasks speed with several methods table:
 |----------|----------|----------|
 | Micropython | Oscilloscope | 100KHz |
 | Assembly | Frequency meter | 50MHz |
-| Technic | Frequency meter & Finder | GHz |
+| Technique | Frequency meter & Finder | GHz |
 
 To measuring the frequency of any signal, including high-frequency signals up to many GHz, without an oscilloscope, It can be done by measuring the coil impedance in a frequency meter circuit. This task requires understanding the inductive reactance formula and having a multimeter, a transistor, an inductor, a capacitor, a diode and etc. The inductive reactance formula (coil impedance) is:
 
