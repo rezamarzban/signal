@@ -19,4 +19,4 @@
 * Restart the app for each circuit testing or after any changes in the circuit components.
 * Vmin and Vmax should be between 0V and 3.3V.
 * Never connect the testing circuit directly to the input pins. Always use suitable resistance.
-* If Vmin equals Vmax, the input signal is not a wave. Therefore, the simplest tool to determine if a testing circuit is an oscillator or not?!
+* If Vmin equals Vmax, the input signal is not a wave. Therefore, the simplest tool to determine if a testing oscillator circuit is correct or not?!
