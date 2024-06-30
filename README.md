@@ -29,7 +29,7 @@ Raspberry pi pico some tasks max frequency by means of several methods table:
 
 | Method | Task | Max freq |
 |----------|----------|----------|
-| Micropython | Oscilloscope | 100KHz |
+| Micropython | Oscilloscope & Frequency meter| ~30KHz |
 | Assembly | Frequency meter | 50MHz |
 | Technique | Frequency meter & Finder | ?GHz |
 
