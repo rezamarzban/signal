@@ -63,7 +63,7 @@ For non-sine wave signals, such as square waves, triangle waves, RC waves, RL wa
 
 The maximum allowed current for any GPIO pin on the Raspberry Pi Pico, including pin 26 and 27 (which can be used as an ADC input), is 16 mA. However, it's important to note that this current rating applies when the pin is used as a general-purpose I/O. 
 
-When using the pin as an ADC input, you should ensure that the input voltage stays within the acceptable range (0V to 3.3V) and that the current flowing into the pin does not exceed this limit. Exceeding these limits can damage the microcontroller. In practice, the current flowing into an ADC input should be minimal, ideally in the microampere range, as the ADC is designed to measure voltage rather than to sink or source significant current.
+When using the pin as an ADC input, you should ensure that the input voltage stays within the acceptable range (0V to 3.3V) and that the current flowing into the pin does not exceed this limit. Exceeding these limits can damage the microcontroller. In practice, the current flowing into an ADC input should be minimal, ideally in the microampere range, as the ADC is designed to measure voltage rather than to sink or source significant current. For correct voltage measurement, Also for other voltages measurement use voltage divider circuit using proper resistors **R<sub>1</sub>** and **R<sub>2</sub>**, Connect **V<sub>out</sub>** of voltage divider circuit to input pins directly: [Example](https://stfn.pl/blog/22-pico-battery-level/).
 
 # Projects 
 
